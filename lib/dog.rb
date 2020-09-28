@@ -9,6 +9,10 @@ class Dog
     @save = save
   end
   
+  def self.all
+    @@all
+  end
+  
   def self.clear_all
     @@all = []
   end
