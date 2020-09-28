@@ -13,4 +13,11 @@ class Dog
     @@all
   end
   
+  def self.print_all
+    print_all.each do |dogs| 
+      @@all
+    end
+    puts Dog.new
+  end
+  
 end
